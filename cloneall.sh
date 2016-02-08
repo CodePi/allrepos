@@ -3,9 +3,9 @@
 REPOS=(Configurator MultikeyMap ResultsMap Serialator ThreadedQueue)
 
 if [ "$1" = "https" ]; then
-    URL="https://github.com/CodePi/"
+    URL="https://github.com/CodePi"
 else
-    URL="git@github.com:CodePi/"
+    URL="git@github.com:CodePi"
 fi
 
 echo $1
