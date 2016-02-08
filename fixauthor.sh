@@ -15,3 +15,10 @@ then
     export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
 fi
 ' --tag-name-filter cat -- --branches --tags
+
+echo 
+echo "To push to origin:"
+echo "git push --force"
+echo 
+echo "To update other clones:"
+echo "git pull --rebase origin"
