@@ -21,4 +21,5 @@ echo "To push to origin:"
 echo "git push --force"
 echo 
 echo "To update other clones:"
-echo "git pull --rebase origin"
+echo "git fetch"
+echo "git reset --hard origin/master"
