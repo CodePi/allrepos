@@ -5,7 +5,7 @@ for D in */ ; do
 	echo "*******************"
 	echo $D
 	cd $D/tests
-	make -j4
+	make -j4 $*
 	cd ../..
     fi
 done
