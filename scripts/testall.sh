@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -e
+
 for D in */ ; do
     if [ -d $D/.git ]; then
 	echo "*******************"
