@@ -2,5 +2,10 @@
 <manifest>
   <remote  name="origin" fetch="." />
   <default revision="master" remote="origin" sync-s="true" sync-j="4" sync-c="true" />
+  <project path="allrepos" name="allrepos.git" />
+  <project path="MultikeyMap" name="MultikeyMap.git" />
   <project path="Configurator" name="Configurator.git" />
+  <project path="ResultsMap" name="ResultsMap.git" />
+  <project path="Serialator" name="Serialator.git" />
+  <project path="ThreadSafeQueue" name="ThreadSafeQueue.git" />
 </manifest>
