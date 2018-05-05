@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin" fetch="." />
-  <default revision="master" remote="origin" sync-s="true" sync-j="4" sync-c="true" />
+  <default revision="master" remote="origin" dest-branch="master" sync-s="true" sync-j="4" sync-c="true" />
   <project path="scripts" name="allrepos" />
   <project name="MultikeyMap" />
   <project name="Configurator" />
