@@ -3,9 +3,9 @@
   <remote  name="origin" fetch="." />
   <default revision="master" remote="origin" sync-s="true" sync-j="4" sync-c="true" />
   <project path="scripts" name="allrepos.git" />
-  <project path="MultikeyMap" name="MultikeyMap.git" />
-  <project path="Configurator" name="Configurator.git" />
-  <project path="ResultsMap" name="ResultsMap.git" />
-  <project path="Serialator" name="Serialator.git" />
-  <project path="ThreadSafeQueue" name="ThreadSafeQueue.git" />
+  <project name="MultikeyMap.git" />
+  <project name="Configurator.git" />
+  <project name="ResultsMap.git" />
+  <project name="Serialator.git" />
+  <project name="ThreadSafeQueue.git" />
 </manifest>
