@@ -1,7 +1,7 @@
 #! /bin/bash
 
 for D in */ ; do
-    if [ -d $D/.git ]; then
+    if [ "$D" != "scripts/" ]; then
 	echo "*******************"
 	echo $D
 	cd $D/tests
