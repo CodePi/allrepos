@@ -5,6 +5,7 @@
   <project path="scripts" name="allrepos" />
   <project name="MultikeyMap" />
   <project name="Configurator" />
+  <project name="ConfiguratorJson" />
   <project name="ResultsMap" />
   <project name="Serialator" />
   <project name="ThreadSafeQueue" />

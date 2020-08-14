@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPOS=(Configurator MultikeyMap ResultsMap Serialator ThreadSafeQueue)
+REPOS=(Configurator ConfiguratorJson MultikeyMap ResultsMap Serialator ThreadSafeQueue)
 
 if [ "$1" = "https" ]; then
     URL="https://github.com/CodePi"
