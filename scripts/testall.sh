@@ -3,7 +3,7 @@
 set -e
 
 for D in */ ; do
-  if [ "$D" != "scripts/" ]; then
+  if [ -d "$D/tests" ]; then
     echo "*******************"
     echo $D
     cd $D/tests
