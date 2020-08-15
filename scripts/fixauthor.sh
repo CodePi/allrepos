@@ -2,7 +2,7 @@
 
 git filter-branch -f --env-filter '
 OLD_EMAIL="pilardi@68f32d55-edf0-144f-a607-5c5f177388a3"
-CORRECT_NAME="pilardi"
+CORRECT_NAME="CodePi"
 CORRECT_EMAIL="CodePi@users.noreply.github.com"
 if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
 then
